@@ -35,31 +35,7 @@ def stopword(tokenize_list):
                         filtered_list.append(i)
         return filtered_list
 
-#Returns the synonyms of all the words in the list
-#def synonyms(keyword_list):
-#        synonyms =[]
-#        for i in keyword_list:
-#		for syn in wordnet.synsets(i):
-#			for j in syn.lemmas():
-#				synonyms.append(j.name())
-#        return synonyms
-
-#Using Snowball stemmer returns the keywords to all the words in the list
-#def stemming(keyword_list):
-#       ps = PorterStemmer()
-#       sno = nltk.stem.SnowballStemmer('english')
-#       stem_list = []
-#       for i in keyword_list:
-#                stem_list.append(sno.stem(i))
-#       return stem_list
-
-#Using WordNet Lemmatizer returns the keywords to all the words in the list
-#def lemmit(keyword_list):
-#       lemmatizer = WordNetLemmatizer()
-#	lemit_list = []
-#       for i in lemit_list:
-#           lemit_list.append(lemmatizer.lemmatize(i))
-#       return lemit_list
+      return lemit_list
 
 #Creates a vector to the list of words and plots them as a scattered plot
 def vector(keyword_list):
@@ -98,21 +74,6 @@ print(correct_list)
 stopword_list = stopword(correct_list)
 print("----------------------------------------------------------------------------------------------------------------")
 print(stopword_list)
-
-#Getting Synonyms
-#synonyms_list = synonyms(stopword_list)
-#print("----------------------------------------------------------------------------------------------------------------")
-#print(synonyms_list)
-
-#Stemming
-#stem_list = stemming(stopword_list)
-#print("----------------------------------------------------------------------------------------------------------------")
-#print(stem_list)
-
-#Lemmitizing
-#lemit_list = lemmit(stopword_list)
-#print("----------------------------------------------------------------------------------------------------------------")
-#print(lemit_list)
 
 #Plotting words 
 print("-----------------------------------------------------------------------------------------------------------------")
