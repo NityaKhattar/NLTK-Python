@@ -8,3 +8,5 @@ Step 2: Tokenize
 Step 3: Spelling correction
 Step 4: Remove stopwords
 Step 5: Use Gensim to vectorize and plot words
+
+![ScreenShot](https://github.com/NityaKhattar/NLTK-Python/master/NLTK screenshot.png)
