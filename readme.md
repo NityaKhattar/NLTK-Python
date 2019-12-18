@@ -1,4 +1,4 @@
-# a basic program of sentence vectorization
+# A basic program of sentence vectorization
 --------------------------------------------
 This is a beginner level program showing an attempt to pre-process data for 
 NLTK tasks.
